@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+header {
+    display: inline-block;
+    background-color: #EAC926;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.buscador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 45%;
+    margin: 0;
+}
+
+.search {
+    width: 45%;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    width: 90%;
+    border: none;
+    height: 26px;
+}
+
+.search button {
+    border: none;
+    background-color: white;
+}
+
+.buscador h3 {
+    margin: 10px 0;
+}
+
+nav {
+    margin: 15px;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger-menu i {
+    font-size: 20px;
+    background-color: #03264C;
+    color: #ebebeb;
+    padding: 5px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+/*Body*/
+body {
+    font-size: 12px;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+.perfilUsuario {
+    margin: 10px;
+}
+
+.input-text {
+    margin: 5px;
+    height: 30px;
+}
+
+.input-text input {
+    height: 26px;
+    width: 60%;
+    border-radius: 2px;
+    border: 0;
+}
+
+.intereses {
+    margin: 10px;
+}
+
+.intereses input {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+form button {
+    height: 26px;
+    width: 60%;
+    border-radius: 2px;
+    border: 0;
+    margin-top: 10px;
+    background-color: #1259c3;
+    color: white;
+}
+
+.inicioSesion button:hover {
+    background-color: #EAC926;
+}
+
+.titulo {
+    color: grey;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.separadorRadio {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 20px 0px 20px;
+}
+
+.separadorCheckbox {
+    display: flex;
+    margin: 20px 0px 20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.enviarRegistro button:hover {
+    background-color: #EAC926;
+}
+.reset button:hover {
+    background-color: #EAC926;
+}
+
+                    /*Footer*/
+footer i {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #1259c3;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footPadre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 480px) {
+    .descripcionDeProducto {
+        display: block;
+    }
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    main section article {
+        width: 47%;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .search {
+        width: 30%;
+    }
+
+    .buscador h3 {
+        width: 30%;
+    }
+
+    footer i:hover {
+        color: #EAC926;
+    }
+
+    .footPadre {
+        flex-direction: row;
+    }
+
+    .navGeneral {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navGeneral .navbar {
+        width: 44vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 769px) {
+    main section article {
+        width: 24%;
+    }
+}
